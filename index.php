@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Success Today</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/home.css">
     
 </head>
 
 <body class="mobile">
-    <nav>
+    <nav class="navigation-pane">
         <div class="container nav-wrapper">
-            <div class="brand">
+            <div class="brand" onclick="location.href='index.php'">
                 <div class="brand-img" >
                     <img src="img/logo.png" alt="">
                 </div>
@@ -29,9 +30,9 @@
                 <li class="active">
                     <a href="#">Home</a>
                 </li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">About Us</a></li>
                 <li>
-                    <a href="#">Services</a>
+                    <a class="nav-services" href="#">Services </a>
                     <ul class="dropdown-list">
                         <li><a href="#">SEO optimisation</a></li>
                         <li><a href="#">Digital marketing</a></li>
@@ -43,7 +44,7 @@
                     </ul>
                 </li>
                 <li><a href="#">Q&A</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact Us</a></li>
                 <li>
                     <button class="btn">Login</button>
                 </li>

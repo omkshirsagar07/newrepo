@@ -33,6 +33,6 @@ hamburger.addEventListener('click', function() {
         bars[2].style.transform = 'rotate(0deg)'
         isActive = false
     }
-    
-
 })
+
+
