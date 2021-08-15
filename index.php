@@ -83,12 +83,6 @@
             <li> <img width="32" height="32" title="" alt="" src="img/whatsapp.png" />
                 <p>WhatsApp</p>
             </li>
-            <!-- <li> <img width="32" height="32" title="" alt="" src="img/wp1.png" />
-                <p>WordPress</p>
-            </li>
-            <li> <img width="30" height="32" title="" alt="" src="img/vm1.png" />
-                <p>Vimeo</p>
-            </li> -->
         </ul>
     </div>
     <script src="./js/home.js"></script>
