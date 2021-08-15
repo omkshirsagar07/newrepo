@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/home.css">
-    
+
 </head>
 
 <body class="mobile">
     <nav class="navigation-pane">
         <div class="container nav-wrapper">
             <div class="brand" onclick="location.href='index.php'">
-                <div class="brand-img" >
+                <div class="brand-img">
                     <img src="img/logo.png" alt="">
                 </div>
                 <span><strong>GET SUCCESS TODAY</strong></span>
@@ -62,6 +62,35 @@
             </div>
         </section>
     </main>
+    <div class="sticky-container" id="sticky-container">
+        <ul class="sticky">
+            <li>
+                <img width="32" height="32" title="" alt="" src="img/facebook.png" />
+                <p>Facebook</p>
+            </li>
+            <li> <img width="32" height="32" title="" alt="" src="img/twitter.png" />
+                <p>Twitter</p>
+            </li>
+            <li> <img width="32" height="32" title="" alt="" src="img/instagram.png" />
+                <p>Instagram</p>
+            </li>
+            <li> <img width="32" height="32" title="" alt="" src="img/linkedin.png" />
+                <p>Linkedin</p>
+            </li>
+            <li> <img width="32" height="32" title="" alt="" src="img/youtube.png" />
+                <p>Youtube</p>
+            </li>
+            <li> <img width="32" height="32" title="" alt="" src="img/whatsapp.png" />
+                <p>WhatsApp</p>
+            </li>
+            <!-- <li> <img width="32" height="32" title="" alt="" src="img/wp1.png" />
+                <p>WordPress</p>
+            </li>
+            <li> <img width="30" height="32" title="" alt="" src="img/vm1.png" />
+                <p>Vimeo</p>
+            </li> -->
+        </ul>
+    </div>
     <script src="./js/home.js"></script>
 </body>
 

@@ -262,3 +262,46 @@ nav ul.dropdown-list {
 .mobile .nav-wrapper ul.dropdown-list li a {
     color: var(--dark-gray);
 }
+
+
+/* Stiky Social Icons */
+
+div#sticky-container {
+    background-color: #333;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -160px;
+    top: 250px;
+    width: 200px;
+    }
+.sticky li {
+    list-style-type: none;
+    background-color: #333;
+    color: #efefef;
+    height: 43px;
+    padding: 0px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    }
+.sticky li:hover {
+    margin-left: -115px;
+    -webkit-filter: grayscale(0%);
+    }
+.sticky li img{
+    float: left;
+    margin: 5px 5px;
+    margin-right: 10px;
+    }
+.sticky li p {
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    line-height: 43px;
+    }
