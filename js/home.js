@@ -66,6 +66,7 @@ function socialLinks(media){
                 break;
         }
     }, 300);
+
 }
 
 function openInNewTab(url) {
